@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    height: 300px; /* Adjust as needed */
+    background: lightblue;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header {
+    background:plum;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: background 0.3s;
+}
+
+.header.sticky {
+    background:black; 
+}
+
+main {
+    padding: 20px;
+    height: 2000px; 
+}
+main p{
+    background-color: lightgoldenrodyellow;
+    font-size: 22px;
+    text-align: justify;
+}
